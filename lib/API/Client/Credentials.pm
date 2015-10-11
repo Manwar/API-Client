@@ -1,6 +1,6 @@
 # Client Credentials Class
 package API::Client::Credentials;
-
+use strict; use warnings;
 use Data::Object::Class;
 use Data::Object::Signatures;
 

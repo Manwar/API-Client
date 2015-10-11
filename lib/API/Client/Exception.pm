@@ -1,6 +1,6 @@
 # Client Exception Class
 package API::Client::Exception;
-
+use strict; use warnings;
 use Data::Object::Class;
 use Data::Object::Signatures;
 

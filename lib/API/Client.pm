@@ -1,6 +1,6 @@
 # ABSTRACT: General-Purpose API Client Abstraction
 package API::Client;
-
+use strict; use warnings;
 use Data::Object::Class;
 use Data::Object::Signatures;
 
@@ -399,7 +399,7 @@ represent and process the HTTP transaction.
     $settings->fetch( ... ); # GET /Users/c09e91a/ProfileSettings
 
 This example illustrates how you can configure the client to automatically
-handle the casing of path segments while continuing to use lowercase-userscore 
+handle the casing of path segments while continuing to use lowercase-userscore
 separated string in your code. This is useful when interacting with an API that
 uses convetions foreign to that of your codebase.
 

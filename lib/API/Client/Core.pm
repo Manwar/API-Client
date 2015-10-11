@@ -1,6 +1,6 @@
 # Client Core Class
 package API::Client::Core;
-
+use strict; use warnings;
 use Data::Object::Class;
 use Data::Object::Signatures;
 
